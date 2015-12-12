@@ -13,5 +13,6 @@ fn main() {
         let per = vec![l + l + w + w, h + h + w + w, l + l + h + h];
         feet += (l * w * h) + *per.iter().min().unwrap();
     }
+    assert_eq!(feet, 3812909);
     println!("{}", feet);
 }

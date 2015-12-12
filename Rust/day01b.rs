@@ -14,5 +14,6 @@ fn main() {
             break;
         }
     }
+    assert_eq!(pos, 1783);
     println!("{}", pos);
 }

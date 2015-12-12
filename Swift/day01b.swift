@@ -16,5 +16,6 @@ for c in directions.characters {
   }
 }
 
+assert(pos == 1783)
 print(pos)
 

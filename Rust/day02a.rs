@@ -14,5 +14,6 @@ fn main() {
         let smallest = sides.iter().min().unwrap();
         feet += smallest + sides.iter().fold(0, |acc, &x| acc + 2 * x);
     }
+    assert_eq!(feet, 1598415);
     println!("{}", feet);
 }

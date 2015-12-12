@@ -10,5 +10,6 @@ fn main() {
             _ => 0,
         }
     }
+    assert_eq!(floor, 232);
     println!("{}", floor);
 }

@@ -12,4 +12,5 @@ for c in directions.characters {
   }
 }
 
+assert(floor == 232)
 print(floor)
