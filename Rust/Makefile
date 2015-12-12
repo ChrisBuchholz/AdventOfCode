@@ -1,6 +1,6 @@
 CC = 		cargo script
 CFLAGS =
-DAYS = 		day01a day01b day02a day02b
+DAYS = 		day01a day01b day02a day02b day03a day03b
 
 all: $(foreach f, $(DAYS), $(f))
 
@@ -15,3 +15,9 @@ day02a:
 
 day02b:
 	$(CC) day02b.rs < day02.input
+
+day03a:
+	$(CC) day03a.rs < day03.input
+
+day03b:
+	$(CC) day03b.rs < day03.input
